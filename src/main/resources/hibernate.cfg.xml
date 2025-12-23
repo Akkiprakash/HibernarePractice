@@ -1,0 +1,12 @@
+<hibernate-configuration>
+    <session-factory>
+        <property name = "hibernate.connection.driver_class">com.mysql.jdbc.driver
+        </property>
+        <property name = "hibernate.connection.url">
+        </property>
+        <property name = "hibernate.connection.password">Akki@1258
+        </property>
+        <property name = "hibernate.connection.username">root'@'localhost
+        </property>
+    </session-factory>
+</hibernate-configuration>
