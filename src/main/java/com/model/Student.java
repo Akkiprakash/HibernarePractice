@@ -13,7 +13,7 @@ public class Student {
     private String sname;
     private String scity;
     public Student(){
-
+        System.out.println("this is the zero parameter constructor");
     }
 
 
