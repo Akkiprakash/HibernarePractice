@@ -15,9 +15,17 @@ public class eagerloading {
 
         try{
             session = sessionFactory.openSession();
-            Student st = session.get(Student.class,3);
 
-            System.out.println(st);
+            Student st = session.get(Student.class,43);
+            if(st != null) {
+                System.out.println(st);
+                System.out.println(st.getScity());
+                System.out.println(st.getSid());
+                System.out.println(st.getScity());
+            }
+            else{
+                System.out.println("the data is not found in the table");
+            }
         }
         catch (HibernateException e){
             e.printStackTrace();
