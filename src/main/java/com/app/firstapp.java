@@ -46,6 +46,8 @@ public class firstapp {
         ///  close the resource or session or session factory
         session.close();
 
+        // this is the base project of using the hibernate
+
 
 
 
